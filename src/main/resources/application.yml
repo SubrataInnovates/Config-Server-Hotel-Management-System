@@ -14,5 +14,8 @@ spring:
           
           clone-on-start: true
           
-          
-    
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+
